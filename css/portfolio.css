@@ -49,7 +49,7 @@ a:hover {
   width: 230px;
   background:  #e0fbfc;
   /*background-color: #E1EBEE;*/
-  color:#444a4a;
+  color: #0c1212;
   position: fixed;
   top: 3vw;
   padding-left: 2vw;
@@ -60,7 +60,7 @@ a:hover {
   text-decoration: none;
   display: block;
   padding: 20px;
-  color:#444a4a;
+  color: #212a30;
   transition: 0.3s;
 }
 
@@ -78,9 +78,9 @@ a:hover {
 }
 
 .barMenu {
-  width: 40%;
+  width: 50%;
   text-decoration: none;
-  color: #444a4a;
+  color: #212a30;
 }
 
 
@@ -100,17 +100,20 @@ a:hover {
 #home {
   background:  #e0fbfc;
   /*background-color: #E1EBEE;*/
+  font-size: 25px;
 }
 
 #home h1 {
   padding-left: 20px;
-  color:#444a4a;
+  color: #212a30;
   margin-bottom: 20px;
+  font-size: 35px;
 }
 
 #home p {
   padding-left: 20px;
   color: #2f4a4f;
+  font-size: 25px;
 }
 
 /* About section styles */
@@ -126,14 +129,15 @@ a:hover {
 }
 
 #about hr {
-  background-color:#ee6c4d;
+  background-color: #ff0007;
   height: 3px;
-  width: 220px;
+  width: 240px;
   margin: 10px 0;
 }
 
 #about p {
   line-height: 1.6;
+  font-size: 20px;
 }
 
 
