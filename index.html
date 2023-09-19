@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Peter Sokor portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="images/myLogoTr.png" style="width:55%">
+  <a href="#" class="barMenu w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="barMenu w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+
+  <a href="#projects" class="barMenu w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+
+  <a href="#myHobby" class="barMenu w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>HOBBY</p>
+  </a>
+  <a href="#contact" class="barMenu w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="top w3-hide-large w3-hide-medium w3-hide-small" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="barMenu w3-button smallMenuButtons" style="width:20% !important">HOME</a>
+    <a href="#about" class="barMenu w3-button smallMenuButtons" style="width:20% !important">ABOUT</a>
+    <a href="#projects" class="barMenu w3-button smallMenuButtons" style="width:20% !important">PROJECTS</a>
+    <a href="#myHobby" class="barMenu w3-button smallMenuButtons" style="width:20% !important">HOBBY</a>
+    <a href="#contact" class="barMenu w3-button smallMenuButtons" style="width:20%!important">CONTACT</a>
+  </div>
+</div>
+
+
+<!-- Page Content -->
+<div class="main" id="main">
+  <div class="centered-container">
+  <header >
+    <h1>I'm</span> Peter Sokor</h1>
+    <p>java software developer</p>
+    <img src="images/glasses3.png" alt="glasses" class="imageGlasses">
+  </header>
+  </div>
+  <!-- About Section -->
+  <div id="about">
+    <h1>ABOUT</h1>
+    <hr>
+    <p> Back in 2022, I decided to try my hand at a new field
+for myself: computer programming. 
+<br>
+I have always enjoyed
+creating things and finding solutions.
+<br>
+In the past, I have had significant experience in the
+music industry, composing music, arranging songs, and
+exploring various genres.
+<br>
+I also have extensive experience
+as a piano teacher.
+<br>
+Currently, I am still learning and continuing my studies
+at Madison Technical College for Java Software Development.
+<br>
+When I'm not at the computer, I'm usually playing piano,
+hanging out with my wife and three daughters, go for runs,
+read or listen music.
+    </p>
+    <div class="skills">
+    <h3>MY SKILLS</h3>
+    <table>
+      <tr>
+        <td>JAVA</td>
+        <td>SPRING</td>
+      <tr>
+        <td>HIBERNATE</td>
+        <td>JDBC</td>
+      </tr>
+      <tr>
+        <td>SQL</td>
+        <td>GIT</td>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>CSS</td>
+      </tr>
+      <tr>
+        <td>ALGORITHMS,</td>
+        <td>DATA STRUCTURES</td>
+      </tr>
+    </table>
+    </div>
+
+    <div class="education">
+      <h3>EDUCATION</h3>
+      <p>Madison Technical College
+                        Since 2022 -student (Advanced Java Software
+                        Development)</p>
+      <p>National Music
+                        Academy (Ukraine) Since 2003 - Degree  in music
+                        (master)</p>
+      <p>Mate academy
+                       Since 2022 -student (courses: Java Software Development)</p>
+    </div>
+    
+    
+    <!--projects -->
+    <h1 class="projectsButton" id="projects">MY PROJECTS</h1> 
+    <hr class="underlines"> 
+        <div class="projects">
+            <button type="button" onclick="location.href='http://3.15.228.113/empManApp-1.0/'">Employyee Manager App.</button>
+            <button type="button" onclick="location.href='#'">e-commerce website</button>
+            <button type="button" onclick="location.href='#'">web project</button>
+        </div>
+  
+  <!-- Portfolio Section -->
+  <div class="hobby" id="myHobby">
+    <h1 class="hobby">HOBBY</h1>
+    <hr class="underlines">
+
+
+    <!-- <div class="card musicWorks">
+        <ul>
+            <h4>My musical works</h4>
+            <ul class="list">
+                <li><a
+                        href="https://www.youtube.com/watch?v=sU-X_YfBjVo" target="_blank"
+                >Granula Grace music video, watch</a></li>
+                <li><a
+                        href="https://music.youtube.com/playlist?list=OLAK5uy_lYGCzMaTGStzw3mPIC8DkXnhXuyMI_3LM" target="_blank"
+                >"Granula Grace" EP album, listen</a></li>
+            </ul>
+        </div>
+    </div> -->
+    <h3>my music works</h3>
+    <div>
+      <button type="button" onclick="location.href='https://music.youtube.com/playlist?list=OLAK5uy_lYGCzMaTGStzw3mPIC8DkXnhXuyMI_3LM'" target="_blank">Listen EP album </button>
+      <button type="button" onclick="location.href='https://www.youtube.com/watch?v=sU-X_YfBjVo'" target="_blank">Music video, watch</button>
+    </div>
+
+  <!-- Contact Section -->
+  <h1>CONTACT ME</h1>
+    <hr class="underlines">
+  <div class="contacts" id="contact">
+      <p> Madison WI, US</p>
+      <p> Phone: +1(608)7198125</p>
+      <p> Email: mister.sokor@gmail.com</p>
+      <p><a href="https://www.linkedin.com/in/peter-sokor-55204320b/">Linkedin</a>
+</p>
+      <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="inputSpace" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="inputSpace" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="inputSpace" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="inputSpace" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+
+
+    <!-- Footer -->
+  <footer>
+  <p class="w3-medium">created by: <a href="mailto:mister.sokor@gmail.com" target="_blank">Peter Sokor</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
