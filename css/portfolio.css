@@ -1,237 +1,242 @@
 /* Reset some default styles */
 * {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-  text-shadow: 3px 3px 5px 0px rgb(29, 44, 49);
+    text-shadow: 3px 3px 5px 0px rgb(29, 44, 49);
 }
 
 
 /* Body background color */
 body {
-  background:  #e0fbfc;
-  /*background-color: #E1EBEE;*/
-  color: #202f34;
+    background:  #e0fbfc;
+    /*background-color: #E1EBEE;*/
+    color: #202f34;
+    
 }
 a {
-  color: rgb(2, 48, 77);
-  /* Unvisited link color */
+    color: rgb(2, 48, 77);
+    /* Unvisited link color */
+    padding-top: 20px;
 }
 
 .smallMenuButtons {
-  border: 1px solid #080e10;
-  border-radius: 4px;
-  padding: 3px;
-  background:  #e0fbfc;
-  /*background-color: linen;*/
+    border: 1px solid #080e10;
+    border-radius: 4px;
+    padding: 3px;
+    background:  #e0fbfc;
+    /*background-color: linen;*/
 }
 
 a:visited {
-  color: rgb(0, 94, 128);
-  /* Visited link color */
+    color: rgb(0, 94, 128);
+    /* Visited link color */
 }
 
-a:hover {
-  color: #ee6c4d;
-  /* Link color when hovered over */
-}
 
 .imageGlasses {
-  width: 70%;
-  display: flex;
-  justify-content: center;
+    width: 70%;
+    display: flex;
+    justify-content: center;
 }
 
 
 /* Sidebar styles */
 .w3-sidebar {
-  width: 230px;
-  background:  #e0fbfc;
-  /*background-color: #E1EBEE;*/
-  color: #0c1212;
-  position: fixed;
-  top: 3vw;
-  padding-left: 2vw;
-  font-size: 25px;
+    width: 230px;
+    background:  #e0fbfc;
+    /*background-color: #E1EBEE;*/
+    color: #0c1212;
+    position: fixed;
+    top: 3vw;
+    padding-left: 2vw;
+    font-size: 25px;
 }
 
 .w3-sidebar a {
-  text-decoration: none;
-  display: block;
-  padding: 20px;
-  color: #212a30;
-  transition: 0.3s;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: #212a30;
+    transition: 0.3s;
+    
 }
 
 .w3-sidebar a:hover {
-  background-color: #9b9b9b;
+    background-color: #9b9b9b;
 }
 
 /* Top navigation for small screens */
 .top {
-  font-size: 14px;
-  top: 30px;
-  z-index: 2;
-  text-align: center;
-  position: sticky;
+    font-size: 14px;
+    top: 30px;
+    z-index: 2;
+    text-align: center;
+    position: sticky;
 }
 
 .barMenu {
-  width: 50%;
-  text-decoration: none;
-  color: #212a30;
+    width: 50%;
+    text-decoration: none;
+    color: #212a30;
 }
 
 
 
 /* Page content */
 #main {
-  margin-left: 250px;
-  padding: 20px;
+    margin-left: 250px;
+    padding: 20px;
 }
 .centered-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Header styles */
 #home {
-  background:  #e0fbfc;
-  /*background-color: #E1EBEE;*/
-  font-size: 25px;
+    background:  #e0fbfc;
+    /*background-color: #E1EBEE;*/
+    font-size: 25px;
 }
 
 #home h1 {
-  padding-left: 20px;
-  color: #212a30;
-  margin-bottom: 20px;
-  font-size: 35px;
+    padding-left: 20px;
+    color: #212a30;
+    margin-bottom: 20px;
+    font-size: 35px;
 }
 
 #home p {
-  padding-left: 20px;
-  color: #2f4a4f;
-  font-size: 25px;
+    padding-left: 20px;
+    color: #2f4a4f;
+    font-size: 25px;
 }
 
 /* About section styles */
 #about {
-  background:  #e0fbfc;
-  /*background-color: #E1EBEE;*/
+    background:  #e0fbfc;
+    /*background-color: #E1EBEE;*/
 }
 
 #about h2 {
-  color: #212a30;
-  /*color:#444a4a;*/
-  margin-bottom: 10px;
+    color: #212a30;
+    /*color:#444a4a;*/
+    margin-bottom: 10px;
 }
 
 #about hr {
-  background-color: #ff0007;
-  height: 3px;
-  width: 240px;
-  margin: 10px 0;
+    background-color: #ff0007;
+    height: 3px;
+    width: 240px;
+    margin: 10px 0;
 }
 
 #about p {
-  line-height: 1.6;
-  font-size: 20px;
+    line-height: 1.6;
+    font-size: 20px;
 }
 
 
-button {
-  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+.button-link {
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
-button {
-  background-color: #98c1d9;
-  display: block;
-  max-width: 100%;
-  width: 800px;
-  height: 50px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin: 10px;
-  font-size: 25px;
-  margin: 10px auto;
+.button-link {
+    background-color: #98c1d9;
+    transition: background-color 0.3s ease;
+    display: block;
+    max-width: 100%;
+    width: 800px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    margin: 10px;
+    font-size: 25px;
+    margin: 10px auto;
+    
+
+    text-decoration: none;
+    text-align: center;
     /* Center horizontally */
 }
 
-button:hover {
-  background-color: #ffb38e;
+.button-link:hover {
+    background-color: #ffb38e;
 }
+
 
 
 
 
 /* Footer styles */
 footer {
-  padding: 50px 0;
-  text-align: center;
-  text-decoration: none;
+    padding: 50px 0;
+    text-align: center;
+    text-decoration: none;
 }
 
 footer {
-  font-size: 15px;
-  margin: 10px;
-  transition: 0.3s;
+    font-size: 15px;
+    margin: 10px;
+    transition: 0.3s;
 }
 
 footer:hover {
-  color: #ccc;
+    color: #ccc;
 }
 
 
 
 .inputSpace {
-  max-width: 800px;
-  width: 800px;
-  height: 30px;
-  display: flex;
-  margin: auto;
-  text-align: center;
-  font-size: 25px;
-  border-radius: 10px;
-  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    width: 800px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Media queries for responsiveness */
 @media only screen and (max-width: 768px) {
 
-  #main {
-    margin-left: 0;
-  }
-  .w3-sidebar {
-    display: none;
-  }
+    #main {
+        margin-left: 0;
+    }
+    .w3-sidebar {
+        display: none;
+    }
 
-  button {
-    font-size: 16px;
-  }
+    button {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
 
-  /* Adjust the width of input fields for smaller screens */
-  .inputSpace {
-    max-width: 90%;
-    /* Adjust this value as needed */
-  }
+    /* Adjust the width of input fields for smaller screens */
+    .inputSpace {
+        max-width: 90%;
+        /* Adjust this value as needed */
+    }
 
-  /* Center the button on smaller screens */
-  .contacts button {
-    margin: 10px auto;
-  }
+    /* Center the button on smaller screens */
+    .contacts button {
+        margin: 10px auto;
+    }
 }
 
 /* Media query to hide the top navigation for larger screens */
 @media only screen and (min-width: 769px) {
 
-  /* Hide the top navigation */
-  .top {
-    display: none;
-  }
+    /* Hide the top navigation */
+    .top {
+        display: none;
+    }
 }
