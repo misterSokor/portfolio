@@ -25,7 +25,7 @@ a {
     border: 1px solid #080e10;
     border-radius: 4px;
     padding: 3px;
-    background:  #e0fbfc;
+    background: #aed1af;
     /*background-color: linen;*/
 }
 
@@ -118,6 +118,7 @@ a:visited {
 /* About section styles */
 #about {
     background:  #e0fbfc;
+    padding: 0 0 0 10px;
     /*background-color: #E1EBEE;*/
 }
 
@@ -131,7 +132,7 @@ a:visited {
     background-color: #ff0007;
     height: 3px;
     width: 240px;
-    margin: 10px 0;
+    margin: 10px 0 40px 0;
 }
 
 #about p {
@@ -153,8 +154,8 @@ a:visited {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    
-    margin: 10px;
+
+
     font-size: 25px;
     margin: 10px auto;
     
